@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script defer src="script.js" type="module"></script>
+  </head>
+  <body>
+    <h1>Equation Solver!</h1>
+    <h2>v 1.0</h2>
+    <p>This calculator allows you to enter equations with parentheses, exponents, multiplication, division, addition, and subtraction.</p>
+    <p>There are a few rules for entering your equation:</p>
+    <ul>
+      <li>Valid operands are +, -, *, /, and ^</li>
+      <li>You must have spaces between numbers and operands, for example: 2 + 3 not 2+3</li>
+      <li>Format exponents like this: 5 ^ 2 or 2 ^ -1</li>
+      <li>Format expressions with parentheses like this: (-7 + 3) * (2 - 3)</li>
+      <li>You cannot have variables, letters, or two-sided equations. Letters and unsupported characters will be escaped out</1i>
+      <li>Decimals and negative numbers are ok. Format negative numbers like this: -4</li>
+      <li>The calculator will follow order of operation (PEMDAS)</li>
+      <li>If the equation is not valid or cannot be handled, NaN (Not a Number) will be returned as the answer</li>
+    </ul>
+    <p>Ready to give it a try?</p>
+    <form id="form">
+      <input id="input" type="text" />
+      <button type="submit" id="button">Solve</button>
+    </form>
+  </body>
+  <p id="answer"></p>
+</html>
