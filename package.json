@@ -1,0 +1,23 @@
+{
+  "name": "equation-solver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "calc.js",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joshdail/equation-solver.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joshdail/equation-solver/issues"
+  },
+  "homepage": "https://github.com/joshdail/equation-solver#readme",
+  "devDependencies": {
+    "jest": "^29.2.0"
+  }
+}
