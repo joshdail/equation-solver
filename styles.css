@@ -1,0 +1,55 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  color: #eee;
+  background-color: #222;
+  font-family: "Maven Pro", sans-serif;
+  margin: 0;
+}
+
+.nav-bar {
+  background-color: hsl(28, 100%, 35%);
+}
+
+.title {
+  margin: 0;
+  padding: 0.25em 0.5em;
+}
+
+main {
+  margin: 0 0.5em;
+}
+
+li {
+  line-height: 1.5;
+}
+
+.equation-input {
+  outline: none;
+  border: 1px solid #eee;
+  background-color: #222;
+  color: #eee;
+  font-size: inherit;
+  font-family: inherit;
+  padding: 0.2em;
+  margin-right: none;
+}
+
+.btn-submit {
+  border: 1px solid hsl(28, 100%, 35%);
+  outline: none;
+  border-top-right-radius: 10000px;
+  border-bottom-right-radius: 10000px;
+  color: #eee;
+  background-color: hsl(28, 100%, 35%);
+  font-size: inherit;
+  font-family: inherit;
+  font-weight: bold;
+  padding: 0.2em 1.5em;
+  margin-left: none;
+  margin-right: 1em;
+}
