@@ -40,14 +40,18 @@ li {
 }
 
 .btn-submit {
-  border: 1px solid hsl(28, 100%, 35%);
+  border: none;
   outline: none;
   color: #eee;
-  background-color: hsl(28, 100%, 35%);
+  background-color: hsl(28, 100%, 40%);
   font-size: inherit;
   font-family: inherit;
   font-weight: bold;
   padding: 0.2em 1.5em;
   margin-left: none;
   margin-right: 1em;
+}
+
+.btn-submit:hover {
+  background-color: hsl(28, 100%, 50%);
 }
