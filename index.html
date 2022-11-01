@@ -5,12 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <script defer src="script.js" type="module"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script type="module" src="script.js" type="module"></script>
   </head>
   <body>
-    <h1>Equation Solver!</h1>
-    <h2>v 1.0</h2>
-    <p>This calculator allows you to enter equations with parentheses, exponents, multiplication, division, addition, and subtraction.</p>
+    <header>
+      <nav class="nav-bar">
+        <h1 class="title">Equation Solver</h1>
+      </nav>
+    </header>
+    <main>
+      <p>This calculator allows you to enter equations with parentheses, exponents, multiplication, division, addition, and subtraction.</p>
     <p>There are a few rules for entering your equation:</p>
     <ul>
       <li>Valid operands are +, -, *, /, and ^</li>
@@ -24,9 +32,12 @@
     </ul>
     <p>Ready to give it a try?</p>
     <form id="form">
-      <input id="input" type="text" />
-      <button type="submit" id="button">Solve</button>
+      <input class="equation-input" id="input" type="text" />
+      <button class="btn-submit" type="submit" id="button">Solve</button>
+      <span class="answer">Answer: </span>
+      <span class="answer" id="answer"></span>
     </form>
+
+    </main>
   </body>
-  <p id="answer"></p>
 </html>

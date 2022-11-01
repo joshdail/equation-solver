@@ -42,8 +42,6 @@ li {
 .btn-submit {
   border: 1px solid hsl(28, 100%, 35%);
   outline: none;
-  border-top-right-radius: 10000px;
-  border-bottom-right-radius: 10000px;
   color: #eee;
   background-color: hsl(28, 100%, 35%);
   font-size: inherit;
